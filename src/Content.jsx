@@ -48,8 +48,7 @@ function Content() {
         <div className="col-12 col-sm-4" >
           <section id="contact">
             <h2>Contact</h2>
-            <video autoplay loop muted>
-            <source src="./src/assets/video.mp4" type="video/mp4"></source>
+            <video src="../src/assets/video.mp4" autoplay loop muted>
             </video>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
