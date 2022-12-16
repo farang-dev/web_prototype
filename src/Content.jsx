@@ -14,7 +14,7 @@ function Content() {
               ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href="assets/Masafumi_Nozawa.pdf" target="_blank">View my profile in resume format</a>
+            <a href="./src/assets/Masafumi_Nozawa.pdf" target="_blank">View my profile in resume format</a>
           </section>
         </div>
         <div className="col-12 col-sm-4">
@@ -49,7 +49,7 @@ function Content() {
           <section id="contact">
             <h2>Contact</h2>
             <video autoplay loop muted>
-            <source src="/Users/fuminozawa/Documents/R_and_D/20221214_web_prototype/src/assets/video.mp4" type="video/mp4"></source>
+            <source src="./src/assets/video.mp4" type="video/mp4"></source>
             </video>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
