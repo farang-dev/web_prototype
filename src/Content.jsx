@@ -48,12 +48,12 @@ function Content() {
         <div className="col-12 col-sm-4" >
           <section id="contact">
             <h2>Contact</h2>
-            <video src="src/assets/video.mp4" autoplay loop muted>
+            <video src="src/assets/video.mp4" autoPlay loop muted>
             </video>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              ipsum dolor sit amet, consenpctetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <a href="mf.nozawa@gmail.com">Email Masafumi Nozawa</a>
