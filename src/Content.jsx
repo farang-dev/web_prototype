@@ -14,7 +14,7 @@ function Content() {
               ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href="./src/assets/Masafumi_Nozawa.pdf" target="_blank">View my profile in resume format</a>
+            <a href="src/assets/Masafumi_Nozawa.pdf" target="_blank">View my profile in resume format</a>
           </section>
         </div>
         <div className="col-12 col-sm-4">
@@ -48,8 +48,6 @@ function Content() {
         <div className="col-12 col-sm-4" >
           <section id="contact">
             <h2>Contact</h2>
-            <video src="src/assets/video.mp4" autoPlay loop muted>
-            </video>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem

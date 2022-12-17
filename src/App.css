@@ -16,7 +16,7 @@ h1,h2,h3 {
 h1 {
   color: #393D3F;
   position: absolute;
-  top: 16px;
+  top: 48px;
   left: 16px;
 }
 
@@ -30,11 +30,30 @@ a {
   color: #4f57e2;
 }
 
+.news {
+  background-color: #ff4343;
+  color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 32px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    z-index: 1000;
+    white-space: nowrap;
+    animation: shift-left 40s linear infinite;
+}
+
 .content {
   width: 100%;
   max-width: 100%;
   color: #393D3F;
-  margin: 3rem 1rem;
+  margin: 5rem 1rem;
 }
 
 .row {
@@ -64,6 +83,15 @@ a {
   }
 }
 
+@keyframes shift-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-5000px);
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -74,3 +102,4 @@ a {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
