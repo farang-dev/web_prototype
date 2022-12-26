@@ -5,7 +5,7 @@ function NotificationBar() {
 
   useEffect(() => {
     const fetchNews = async () => {
-      const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${'8cc4e45e8b4a4f75a6c0012522a3463e'}`);
+      const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=8cc4e45e8b4a4f75a6c0012522a3463e`);
       const data = await response.json();
       setNews(data.articles.slice(0, 10));
     };
