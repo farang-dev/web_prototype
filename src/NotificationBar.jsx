@@ -15,12 +15,12 @@ function NotificationBar() {
 
   return (
     <div className="news">
-      {news.map(item => (
-        <div key={item.title} style={{ display: 'flex', alignItems: 'center', backgroundColor:'#ff4343', color:'#ffffff',height:'32px'}}>
-          <span>{new Date(item.publishedAt).toDateString()}&nbsp;</span> 
-          <span style={{ marginRight: '10px' }}>{item.title}</span>
-        </div>
-      ))}
+     {news && news.map(item => (
+  <div key={item.title} style={{ display: 'flex', alignItems: 'center', backgroundColor:'#ff4343', color:'#ffffff',height:'32px'}}>
+    <span>{new Date(item.publishedAt).toDateString()}&nbsp;</span> 
+    <span style={{ marginRight: '10px' }}>{item.title}</span>
+  </div>
+))}
     </div>
   );
 }
