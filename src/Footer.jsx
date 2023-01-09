@@ -3,10 +3,10 @@ import { FaGithub, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 const Footer = () => (
     <footer className="footer">
       <div className="footer-icons">
-        <a href="#"><FaGithub /></a>
-        <a href="#"><FaInstagram /></a>
-        <a href="#"><FaTwitter /></a>
-        <a href="#"><FaLinkedin /></a>
+        <a href="https://www.google.ca/"><FaGithub /></a>
+        <a href="https://www.google.ca/"><FaInstagram /></a>
+        <a href="https://www.google.ca/"><FaTwitter /></a>
+        <a href="https://www.google.ca/"><FaLinkedin /></a>
       </div>
     </footer>
   );
