@@ -1,9 +1,10 @@
 body {
   background-color: #FDFDFF;
+  font-family: 'BrutalType', sans-serif;
 }
 
 .App {
-  font-family: "Helvetica Neue 45 Light", sans-serif;
+  font-family: 'BrutalType', sans-serif;
   font-size: 16px;
   
 }
@@ -16,8 +17,13 @@ h1,h2,h3 {
 h1 {
   color: #393D3F;
   position: absolute;
-  top: 48px;
+  top: 16px;
   left: 16px;
+  font-family: 'BrutalType-Bold', sans-serif;
+}
+
+h2 {
+  font-family: 'BrutalType-Bold', 'BrutalType', sans-serif;
 }
 
 li {
@@ -27,7 +33,7 @@ li {
 }
 
 a {
-  color: #4f57e2;
+  color: #000000;
 }
 
 .news {
@@ -53,7 +59,7 @@ a {
   width: 100%;
   max-width: 100%;
   color: #393D3F;
-  margin: 5rem 1rem;
+  margin: 3rem 1rem;
 }
 
 .row {
@@ -64,6 +70,29 @@ a {
   margin-bottom: 30px;
   margin-right: 16px;
 }
+
+.footer {
+  background-color: #000;
+  opacity: 0.3;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  }
+  
+  .footer-icons a:hover {
+  color: #000;
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -92,14 +121,17 @@ a {
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'BrutalType';
+  src: url('/public/fonts/BrutalType.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'BrutalType-Medium';
+  src: url('/public/fonts/BrutalType-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BrutalType-Bold';
+  src: url('/public/fonts/BrutalType-Bold.ttf') format('truetype');
+}

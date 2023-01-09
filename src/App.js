@@ -1,9 +1,9 @@
 import React from "react";
 import Heading from "./Heading";
 import Content from "./Content";
+import Footer from "./Footer";
 import './App.css';
 import NotificationBar from "./NotificationBar";
-import Video from "./video.mp4";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
     <NotificationBar></NotificationBar>
     <Heading></Heading>
     <Content></Content>
-    <video src={Video} autoPlay></video>
+    <Footer></Footer>
     </div>
   )
 };  

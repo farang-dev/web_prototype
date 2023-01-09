@@ -11,7 +11,7 @@ function NotificationBar() {
           throw new Error(response.statusText);
         }
         const data = await response.json();
-        setNews(data.articles.slice(0, 10));
+        setNews(data.articles.slice(0, 100));
       } catch (error) {
         console.error(error);
       }

@@ -7,10 +7,9 @@ function Content() {
       <div className="row">
         <div className="col-12 col-sm-4">
           <section id="self-intro">
-            <h2>About Me</h2>
+            <h2>Hello</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
+              I'm a front-end developer, digital advertising specialist, social media planner, fashion content producer, aspiring full-stack developer.Lorem
               ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -19,7 +18,7 @@ function Content() {
         </div>
         <div className="col-12 col-sm-4">
           <section id="projects">
-            <h2>My Projects</h2>
+            <h2>Projects</h2>
             <ul style={{listStyleType: 'none'}}>
               <li>
                 <a href="https://www.google.com">Project 1</a>
@@ -36,7 +35,28 @@ function Content() {
                 </p>
               </li>
               <li>
-                <a href="https://www.google.com">Project 2</a>
+                <a href="https://www.google.com">Project 3</a>
+                <p>
+                  coming soon/coming soon/coming soon/coming soon/coming
+                  soon/coming soon/coming soon/coming soon
+                </p>
+              </li>
+              <li>
+                <a href="https://www.google.com">Project 4</a>
+                <p>
+                  coming soon/coming soon/coming soon/coming soon/coming
+                  soon/coming soon/coming soon/coming soon
+                </p>
+              </li>
+              <li>
+                <a href="https://www.google.com">Project 5</a>
+                <p>
+                  coming soon/coming soon/coming soon/coming soon/coming
+                  soon/coming soon/coming soon/coming soon
+                </p>
+              </li>
+              <li>
+                <a href="https://www.google.com">Project 6</a>
                 <p>
                   coming soon/coming soon/coming soon/coming soon/coming
                   soon/coming soon/coming soon/coming soon
@@ -49,10 +69,7 @@ function Content() {
           <section id="contact">
             <h2>Contact</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-              ipsum dolor sit amet, consenpctetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
+              Please feel free to reach me out. It may take up to 2-3 days for response. But, I'm happy to receive any sorts of messages.
             </p>
             <a href="mf.nozawa@gmail.com">Email Masafumi Nozawa</a>
           </section>
